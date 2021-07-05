@@ -27,6 +27,7 @@ Some documents for redevelopment using flarum, It's not a best practice.
 1. 核心目录 [flarum_core](./flarum_core.md)
 2. 认证 [authentication](./flarum_authentication.md)
 3. 配置文件 [config](./flarum_config.md)
+4. Csrf 验证 [Csrf 验证](./flarum_csrf.md)
 
 
 

@@ -4,7 +4,7 @@
 
 `config.php` 文件内容：
 
-```json
+```php
 <?php return array (
   'debug' => true,
   'database' =>
