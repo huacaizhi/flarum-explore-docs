@@ -34,9 +34,13 @@ Some documents for redevelopment using flarum, It's not a best practice.
 ##### 参考资料（包括不限于）
 
 > 官网：https://flarum.org/
+>
 > 官网文档（英文）：https://docs.flarum.org/
+>
 > 中文文档（未完全翻译）：https://flarum.org.cn/
+>
 > flarum 代码仓库：https://github.com/flarum/core
+>
 > flarum 代码仓库文档（很重要）：https://github.com/flarum/docs
 
 > Flarum 文档1：https://www.bookstack.cn/read/flarum-doc/README.md
