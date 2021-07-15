@@ -78,22 +78,24 @@ class SomeClass
     public function someFunction()
     {
         //获取 debug 的值
-        $this->container->get('flarum.config')->offsetGet('debug');
+        $debug = $this->container->make('flarum.config')->offsetGet('debug');
         
         //获取 database 数组
-        $this->container->get('flarum.config')->offsetGet('database');
+        $database = $this->container->make('flarum.config')->offsetGet('database');
         
         //获取 headers 数组
-        $this->container->get('flarum.config')->offsetGet('headers');
+        $headers = $this->container->make('flarum.config')->offsetGet('headers');
         
         //获取 xxx 你定义的值或数组
-        $this->container->get('flarum.config')->offsetGet('xxx');
+        $xxx = $this->container->make('flarum.config')->offsetGet('xxx');
         
         //获取 config.php 之后你的其他处理逻辑
     }
 }
 ```
 
+> 注意 `container` 的命名空间。
+>
 > 除了 `offsetGet()` 方法，还有一些其他方法可调用 。
 >
 > 详情请看  ```vendor\flarum\core\src\Foundation\Config.php ```  这个文件。
