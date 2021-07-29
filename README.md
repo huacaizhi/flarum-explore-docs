@@ -12,6 +12,8 @@ Some documents for redevelopment using flarum, It's not a best practice.
 
 > 通过在项目根目录下执行 `php flarum --version` 查看 `flarum` 版本
 >
+> > 执行 `php flarum list` 也能查看 `flarum` 版本
+>
 > 按理说应该跟 `Flarum 1.0.0` 版本差不多，当时刚安装上 `beta.16` 然后没过几天就发布了 `Flarum 1.0.0`
 
   
